@@ -54,7 +54,7 @@ async def on_message(message):
                             'Content-Type': 'application/json'
                         },
                         json={
-                            "model": "deepseek/deepseek-r1:free",
+                            "model": "deepseek/deepseek-chat",
                             "messages": [{"role": "user", "content": query}],
                             "temperature": 0.7
                         }
