@@ -2,7 +2,7 @@ import discord
 import aiohttp
 import asyncio
 import os
-improt webserver
+import webserver
 DISCORD_TOKEN = os.environ['discordkey']
 OPENROUTER_API_KEY = os.environ['apikey']
 
